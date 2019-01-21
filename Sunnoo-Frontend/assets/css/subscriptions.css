@@ -1,0 +1,151 @@
+.card-box:not(.has-topic-background-color) {
+    background: #fff none repeat scroll 0 0;
+}
+
+.card-box {
+    border-radius: 5px 5px 4px 4px;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.06);
+    color: #b2bac2;
+    display: block;
+    min-height: 415px;
+  /*  padding:30px 30px;*/
+    position: relative;
+}
+
+.card {
+    margin-bottom: 10px;
+}
+.spacing-30{
+    padding: 30px;
+}
+
+.pink {
+
+    background-color: #E50914;
+}
+
+.card-progress {
+    
+    border-radius: 4px 4px 0 0;
+    color: #000;
+    display: block;
+    height: 58px;
+   /* left: 0;*/
+    line-height: 58px;
+    padding: 0 30px;
+   /* position: absolute;
+    right: 0;
+    top: 0;*/
+    transition: background-color 300ms ease 0s;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    overflow: hidden;
+
+}
+
+.black-bg{
+    background-color: #000;
+}
+.red-bg{
+    background-color: #E50914;
+}
+.orange {
+    background-color: #ff0a16;
+}
+
+.card-type {
+color: #7b8b8e;
+display: block;
+font-size: 14px;
+line-height: 12px;
+margin: 0 0 7px;
+}
+
+.card-title {
+color: #4b5658;
+/*color: #fff;*/
+font-size: 18px;
+line-height: 24px;
+margin: 0;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+
+}
+
+.card:not(.variable-height) .card-description, .card:not(.variable-height) .card-description-markdown {
+    max-height: 80px;
+    overflow-y: auto;
+}
+.card-description, .card-description-markdown {
+color: #7b8b8e;
+font-size: 14px;
+margin:15px 0 0;
+overflow: hidden;
+position: relative;
+z-index: 0;
+}
+
+
+ul {
+list-style: outside none none;
+}
+
+
+.card-actions {
+bottom:30px;
+display: block;
+list-style: outside none none;
+pointer-events: none;
+position: absolute;
+right: 45px;
+z-index: 1;
+}
+
+.card-action {
+float: left;
+pointer-events: auto;
+position: relative;
+}
+
+
+.pink-btn {
+    background-color: #E50914;
+    border-color: #E50914;
+    color: #fff;
+}
+
+.black-btn {
+    background-color: #000;
+    border-color: #000;
+    color: #fff;
+}
+
+.orange-btn {
+    background-color: #ff0a16;
+    border-color: #ff0a16;
+    color: #fff;
+}
+
+.orange-btn:hover,
+.orange-btn-free:active,
+.orange-btn:focus{
+
+  color: #fff;
+
+}
+
+
+.pink-btn:hover,
+.pink-btn:active,
+.pink-btn:focus{
+  color: #fff;
+}
+
+.black-btn:hover,
+.black-btn:active,
+.black-btn:focus{
+  color: #fff;
+}

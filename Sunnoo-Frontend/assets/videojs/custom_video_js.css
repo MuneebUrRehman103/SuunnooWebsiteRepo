@@ -1,0 +1,27 @@
+.video-js {
+	font-size: 14px;
+}
+.video-js .vjs-control:before {
+	font-size: 1.8em;
+	line-height: 1.67;
+}
+.video-js .vjs-big-play-button:before, .video-js .vjs-control:before {
+	text-align: center;
+}
+.video-js .vjs-big-play-button:before, .video-js .vjs-control:before, .video-js .vjs-modal-dialog, .vjs-modal-dialog .vjs-modal-dialog-content {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.video-js {
+	width: 100%;
+	height: 450px;
+}
+.mt-3 {
+	margin-top: 0.5rem!important;
+}
+.vjs-paused.vjs-has-started .vjs-big-play-button {
+	display: block;
+}

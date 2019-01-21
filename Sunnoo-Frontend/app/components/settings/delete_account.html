@@ -1,0 +1,35 @@
+<div class="main-content form-content bg-img" style="background-image:url({{login_bg}})">
+
+
+  <div class="content-panel" style="padding-top: 100px;padding-bottom: 40px;">
+
+    <!-- LOGIN FORM 
+    ===================================================-->
+    <div class="login-form">
+      <div class="container">
+        <div class="login-form-inner grey-bg">  
+          <h3 class="login-tit">Hope, see you soon</h3>
+          <form method="post" ng-submit="deleteAccount()">
+            <div class="form-group">
+                <label><b>Note:</b> Once you deleted account, you will lose your history and wishlist details. </label>
+                <br>
+                <div ng-show="login_by == 'manual'">
+                  <input type="password" class="form-control" placeholder="Enter Password" ng-model="password">
+                </div>
+            </div>
+
+           
+            <div>
+              <button type="submit" class="btn btn-primary form-btn">Delete Account</button>
+            </div>
+
+            <div class="clearfix"></div>
+
+          </form>
+        </div>          
+      </div>
+    </div>
+    <!-- LOGIN FORM -->
+
+  </div>
+</div>

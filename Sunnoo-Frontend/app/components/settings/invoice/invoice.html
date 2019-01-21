@@ -1,0 +1,56 @@
+<div class="main-content form-content bg-img" style="background-image:url({{login_bg}})">
+	<div style="padding-top:75px;"></div>
+	<div class="top">
+		<div class="col-xs-12 col-sm-12 col-md-offset-2 col-md-8 col-lg-offset-3 col-lg-6">
+			<div class="plans" id="plan2">
+				<div class="plan-img1" style="background-image: url(img/invoice.gif);"></div>
+				<div class="white-bg1 spacing">
+					<div class="row">
+						<div class="col-xs-12 col-sm-offset-1 col-sm-10 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8 " >
+							<div class="invoice-details text-center">
+								<h3 class="black-clr no-margin top">{{plan.title}}</h3>
+								<p class="black-clr top">{{plan.description}}</p>
+								<h4 class="black-clr no-margin top">No of account - {{plan.no_of_account}}</h4>
+			   							<table class="table text-center">
+			   								<tbody>
+											    <tr class="warning">
+											        <td>Amount</td>
+											        <td>-</td>
+											        <td>${{plan.amount}}</td>
+											    </tr>
+											    <!-- <tr>
+											        <td>Tax</td>
+											        <td>- $10.00</td>
+											    </tr> -->
+											    <tr class="warning">
+											        <td>Total</td>
+											        <td>-</td>
+											        <td>${{plan.amount}}</td>
+											    </tr>
+											</tbody>
+			   							</table>
+			   							
+			   							<h3 class="no-margin top1 black-clr"><span><i class="fa fa-credit-card-alt icon"></i></span>Payment Options</h3>
+			   							<div class="black-clr">
+				   							<label>
+											    <input type="radio" class="option-input radio" name="type_of_payment" checked value="1"/>
+											    PayPal
+											</label>
+											<label>
+											    <input type="radio" class="option-input radio" name="type_of_payment" value="0"/>
+											   Card Payment
+											</label>
+										</div>
+										<div style="clear: both;"></div>
+										<div class="text-center"> 
+			   								<button class="paynow-btn1 top" ng-click="sendToPaypal(plan.id, plan.amount)" id="pay_now_subscription"><i class="fa fa-credit-card"></i> &nbsp; Pay Now</button>
+			   							</div>
+										
+							</div>
+					 	</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

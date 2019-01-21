@@ -1,0 +1,19 @@
+{
+    "name": "vidhyar2612/enveditor",
+    "description": "Laravel 5.2 - Env Editor",
+    "license": "MIT",
+    "keywords": ["Laravel 5 env" , "Env Edit" , "Laravel 5 Env Set Value"],
+    "authors": [
+        {
+            "name": "Vidhya",
+            "email": "vidhyar2612@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "vidhyar2612\\Enveditor\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

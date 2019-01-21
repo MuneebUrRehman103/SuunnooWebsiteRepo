@@ -1,0 +1,879 @@
+/*extra small devices*/
+@media screen and (max-width: 479px) {
+.section-padding{
+    padding: 15px;
+}
+.basic-title{
+  color: #fff;
+  font-size: 3em;
+  margin: 0 0 .2em;
+  line-height: 1em;
+  font-weight: 700;
+}
+.basic-para{
+  letter-spacing: .2px;
+  padding: 0 10px;
+  font-size: 1em;
+  text-transform: uppercase;
+  line-height: 23px;
+  margin-bottom: 20px;
+}
+.join-free{
+  display: block;
+  padding: 10px;
+  text-transform: uppercase;
+  background-color: #E50914;
+  color: #fff;
+  padding: 1em 1.2em;
+  width: 270px;
+  min-height: 44px;
+  font-weight: 400;
+  letter-spacing: 1.9px;
+  font-size: 14px;
+  margin: .5em .5em .5em 0;
+  border-radius: 4px;
+  line-height: 1em;
+}
+.basic-tabs .nav-tabs li{
+  width: 100%;
+}
+.basic-row{
+  margin: 0 auto;
+  padding: 40px 0;
+  width: 100%;
+  max-width: 1400px;
+}
+.basic-section{
+  margin-top: 0px;
+}
+
+.form-signup-google .btn {
+    background-color: #dc4e41;
+    font-size: 12px;
+    text-transform: inherit;
+    width: auto;
+    border: medium none;
+    border-radius:4px;
+    color: #fff;
+    display: inline-block;
+    font-family: "Montserrat",sans-serif;
+    font-weight: normal;
+    line-height: 40px;
+    padding: 0 20px;
+    position: relative;
+    z-index: 1;
+    margin-top: 15px;
+    width: 100%;
+}
+.form-signup-facebook .btn {
+    background-color: #3b5998;
+    font-size: 12px;
+    text-transform: inherit;
+    width: auto;
+    border: medium none;
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block;
+    font-family: "Montserrat",sans-serif;
+    font-weight: normal;
+    line-height: 40px;
+    padding: 0 20px;
+    position: relative;
+    z-index: 1;
+    margin-top: 15px;
+    width:100%;
+}
+.social-login{
+  text-align: center;
+}
+.pull-left1{
+  text-align: center;
+}
+.pull-right1{
+  text-align: center;
+}
+.list-profiles .profile-gate-label, .profile-actions-container h1 {
+    width: 100%;
+    color: #fff;
+    font-size: 2.5em;
+}
+.highlight-img{
+    height: 250px;
+    background-position: center 10%;
+    width: 100%;
+}
+.highlight{
+  position: relative;
+  height: 265px;
+}
+.header_section {
+    padding: 0px;
+    width: 100%;
+}
+.navbar-default{
+  border-radius: 0;
+  border: none;
+  margin-bottom: 0;
+  background: rgba(0,0,0,.8) !important;
+}
+.tab-section{
+  height: 250px;
+    background-position: center;
+    width: 100%;
+}
+.nav > li{
+  display: inline-block !important;
+}
+.left-align{
+  float: left;
+}
+.right-align{
+  float: right;
+}
+.open .dropdown-menu {
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: rgba(0,0,0,.8) !important;
+    border-top: 2px solid white !important;
+    border-right: 0 !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    position: absolute !important;
+   /* max-height:300px !important;
+    overflow-y: auto !important;*/
+}
+.border-right{
+  border-right: 0 !important;
+}
+.sub-drop1{
+  padding-bottom: 0 !important;
+}
+.sub-drop2{
+  padding-top: 0 !important;
+}
+.navbar-right .dropdown-menu {
+    right: 15px;
+    left: auto;
+}
+.notifications {
+    min-width:200px;
+}
+.centered-div{
+    transform: scale(1); 
+    opacity: 1; transition-duration: 450ms; 
+    transition-delay: 200ms; 
+    width: 100%;
+    padding:15px;
+    margin:auto;
+}
+.pay-details-bg{
+    background-color:  rgba(0,0,0,.8);
+    padding: 15px;
+}
+.billing-bg{
+    background-color:  rgba(0,0,0,.8);
+    padding: 15px;
+}
+.billing-bg-img{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar-nav {
+    margin: 3.5px -15px
+}
+.mega-dropdown {
+    position: static !important;
+    padding-top:13px;
+}
+.navbar-nav .open .dropdown-menu{
+  width: 160px;
+}
+.height{
+  height:332px;
+}
+}
+
+/*small devices*/
+@media (min-width: 480px) and (max-width: 767px) {
+.section-padding{
+    padding: 25px 50px;
+}
+.basic-title{
+  color: #fff;
+  font-size: 3.6em;
+  margin: 0 0 .2em;
+  line-height: 1em;
+  font-weight: 700;
+}
+.basic-para{
+  letter-spacing: .2px;
+  padding: 0 10px;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  line-height: 23px;
+  margin-bottom: 20px;
+}
+.join-free{
+  display: block;
+  padding: 10px;
+  text-transform: uppercase;
+  background-color: #E50914;
+  color: #fff;
+  padding: 1.3em 1.6em;
+  width: 270px;
+  min-height: 44px;
+  font-weight: 400;
+  letter-spacing: 1.9px;
+  font-size: 14px;
+  margin: .5em .5em .5em 0;
+  border-radius: 4px;
+  line-height: 1em;
+}
+.basic-tabs .nav-tabs li{
+  width: 33%;
+}
+.basic-row{
+  margin: 0 auto;
+  padding: 40px 0;
+  width: 100  %;
+  max-width: 1400px;
+}
+.basic-section{
+  margin-top: 0px;
+}
+.form-signup-google .btn {
+    background-color: #dc4e41;
+    float: left;
+    font-size: 12px;
+    text-transform: inherit;
+    width: auto;
+    border: medium none;
+    border-radius:4px;
+    color: #fff;
+    display: inline-block;
+    font-family: "Montserrat",sans-serif;
+    font-weight: normal;
+    line-height: 40px;
+    padding: 0 20px;
+    position: relative;
+    z-index: 1;
+    margin-top: 15px;
+}
+.form-signup-facebook .btn {
+    background-color: #3b5998;
+    float: right;
+    font-size: 12px;
+    text-transform: inherit;
+    width: auto;
+    border: medium none;
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block;
+    font-family: "Montserrat",sans-serif;
+    font-weight: normal;
+    line-height: 40px;
+    padding: 0 20px;
+    position: relative;
+    z-index: 1;
+    margin-top: 15px;
+}
+.pull-left1{
+  float: left;
+}
+.pull-right1{
+  float: right;
+}
+.list-profiles .profile-gate-label , .profile-actions-container h1{
+    width: 100%;
+    color: #fff;
+    font-size: 3em;
+}
+.highlight-img{
+    height: 350px;
+    background-position: center 10%;
+    width: 100%;
+}
+.highlight{
+  position: relative;
+  height: 365px;
+}
+.header_section {
+    padding: 0px;
+    width: 100%;
+}
+.navbar-default{
+  border-radius: 0;
+  border: none;
+  margin-bottom: 0;
+  background: rgba(0,0,0,.8) !important;
+}
+.tab-section{
+  height: 350px;
+    background-position: center;
+    width: 100%;
+}
+.nav > li{
+  display: inline-block !important;
+}
+.left-align{
+  float: left;
+}
+.right-align{
+  float: right;
+}
+.open .dropdown-menu {
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: rgba(0,0,0,.8) !important;
+    border-top: 2px solid white !important;
+    border-right: 0 !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    position: absolute !important;
+   /* max-height:300px !important;
+    overflow-y: auto !important;*/
+}
+.border-right{
+  border-right: 0 !important;
+}
+.sub-drop1{
+  padding-bottom: 0 !important;
+}
+.sub-drop2{
+  padding-top: 0 !important;
+}
+.navbar-right .dropdown-menu {
+    right: 15px;
+    left: auto;
+}
+.notifications {
+    min-width: 200 !important;
+}
+.centered-div{
+    transform: scale(1); 
+    opacity: 1; transition-duration: 450ms; 
+    transition-delay: 200ms; 
+    width:100%;
+    padding:15px;
+    margin:auto;
+}
+.pay-details-bg{
+    background-color:  rgba(0,0,0,.8);
+    padding: 15px;
+}
+.billing-bg{
+    background-color:  rgba(0,0,0,.8);
+    padding: 15px;
+}
+.billing-bg-img{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar-nav {
+    margin: 3.5px -15px
+}
+.mega-dropdown {
+    position: static !important;
+    padding-top:13px;
+}
+.height{
+  height:332px;
+}
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+.section-padding{
+    padding: 25px;
+}
+.basic-title{
+  color: #fff;
+  font-size: 4.6em;
+  margin: 0 0 .2em;
+  line-height: 1em;
+  font-weight: 700;
+}
+.basic-para{
+  letter-spacing: .2px;
+  padding: 0 10px;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  line-height: 23px;
+  margin-bottom: 20px;
+}
+.join-free{
+  display: block;
+  padding: 10px;
+  text-transform: uppercase;
+  background-color: #E50914;
+  color: #fff;
+  padding: 1.3em 1.6em;
+  width: 270px;
+  min-height: 44px;
+  font-weight: 400;
+  letter-spacing: 1.9px;
+  font-size: 14px;
+  margin: .5em .5em .5em 0;
+  border-radius: 4px;
+  line-height: 1em;
+}
+.basic-tabs .nav-tabs li{
+  width: 33%;
+}
+.basic-row{
+  margin: 0 auto;
+  padding: 40px 0;
+  width: 100%;
+  max-width: 1400px;
+}
+.basic-section{
+  margin-top: 70px;
+}
+.form-signup-google .btn {
+    background-color: #dc4e41;
+    float: left;
+    font-size: 12px;
+    text-transform: inherit;
+    width: auto;
+    border: medium none;
+    border-radius:4px;
+    color: #fff;
+    display: inline-block;
+    font-family: "Montserrat",sans-serif;
+    font-weight: normal;
+    line-height: 40px;
+    padding: 0 20px;
+    position: relative;
+    z-index: 1;
+    margin-top: 15px;
+}
+.form-signup-facebook .btn {
+    background-color: #3b5998;
+    float: right;
+    font-size: 12px;
+    text-transform: inherit;
+    width: auto;
+    border: medium none;
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block;
+    font-family: "Montserrat",sans-serif;
+    font-weight: normal;
+    line-height: 40px;
+    padding: 0 20px;
+    position: relative;
+    z-index: 1;
+    margin-top: 15px;
+}
+.pull-left1{
+  float: left;
+}
+.pull-right1{
+  float: right;
+}
+.list-profiles .profile-gate-label, .profile-actions-container h1 {
+    width: 100%;
+    color: #fff;
+    font-size: 3.5em;
+}
+.highlight-img{
+    height: 500px;
+    background-position: center 10%;
+    width: 100%;
+}
+.highlight{
+  position: relative;
+  min-height: 500px;
+}
+.header_section {
+    padding: 0 45px;
+    width: 100%;
+}
+.navbar-default{
+  border-radius: 0;
+  background: transparent;
+  border: none;
+  margin-bottom: 0;
+}
+.tab-section{
+  height: 500px;
+    background-position: center;
+    width: 100%;
+}
+.centered-div{
+    transform: scale(1); 
+    opacity: 1; transition-duration: 450ms; 
+    transition-delay: 200ms; 
+    width: 40%;
+    margin:auto;
+}
+.pay-details-bg{
+    background-color:  rgba(0,0,0,.8);
+    padding: 15px;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.billing-bg{
+    background-color:rgba(0,0,0,.8);
+    padding: 15px;
+    height: 550px;
+}
+.billing-bg-img{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+}
+.embed-top{
+  margin-top: 100px;
+}
+.mega-dropdown {
+    position: static !important;
+    padding-top:5px;
+}
+.height{
+  height:287px;
+}
+}
+
+/* Medium Devices, */
+@media (min-width : 992px) and (max-width: 1199px){
+.section-padding{
+    padding: 50px 100px;
+}
+.basic-title{
+  color: #fff;
+  font-size: 4.6em;
+  margin: 0 0 .2em;
+  line-height: 1em;
+  font-weight: 700;
+}
+.basic-para{
+  letter-spacing: .2px;
+  padding: 0 10px;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  line-height: 23px;
+  margin-bottom: 20px;
+}
+.join-free{
+  display: block;
+  padding: 10px;
+  text-transform: uppercase;
+  background-color: #E50914;
+  color: #fff;
+  padding: 1.3em 1.6em;
+  width: 270px;
+  min-height: 44px;
+  font-weight: 400;
+  letter-spacing: 1.9px;
+  font-size: 14px;
+  margin: .5em .5em .5em 0;
+  border-radius: 4px;
+  line-height: 1em;
+}
+.basic-tabs .nav-tabs li{
+  width: 33%;
+}
+.basic-row{
+  margin: 0 auto;
+  padding: 40px 0;
+  width: 100%;
+  max-width: 1400px;
+}
+.basic-section{
+  margin-top: 70px;
+}
+.form-signup-google .btn {
+    background-color: #dc4e41;
+    float: left;
+    font-size: 12px;
+    text-transform: inherit;
+    width: auto;
+    border: medium none;
+    border-radius:4px;
+    color: #fff;
+    display: inline-block;
+    font-family: "Montserrat",sans-serif;
+    font-weight: normal;
+    line-height: 40px;
+    padding: 0 20px;
+    position: relative;
+    z-index: 1;
+    margin-top: 15px;
+}
+.form-signup-facebook .btn {
+    background-color: #3b5998;
+    float: right;
+    font-size: 12px;
+    text-transform: inherit;
+    width: auto;
+    border: medium none;
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block;
+    font-family: "Montserrat",sans-serif;
+    font-weight: normal;
+    line-height: 40px;
+    padding: 0 20px;
+    position: relative;
+    z-index: 1;
+    margin-top: 15px;
+}
+.pull-left1{
+  float: left;
+}
+.pull-right1{
+  float: right;
+}
+.list-profiles .profile-gate-label , .profile-actions-container h1{
+    width: 100%;
+    color: #fff;
+    font-size: 3.5em;
+}
+.highlight-img{
+    height: 500px;
+    background-position: center 10%;
+    width: 100%;
+}
+.highlight{
+  position: relative;
+  min-height: 500px;
+}
+.header_section {
+    padding: 0 45px;
+    width: 100%;
+}
+.navbar-default{
+  border-radius: 0;
+  background: transparent;
+  border: none;
+  margin-bottom: 0;
+}
+.tab-section{
+  height: 500px;
+    background-position: center;
+    width: 100%;
+}
+.centered-div{
+    transform: scale(1); 
+    opacity: 1; transition-duration: 450ms; 
+    transition-delay: 200ms; 
+    width: 40%;
+    margin:auto;
+}
+.pay-details-bg{
+    background-color:  rgba(0,0,0,.8);
+    padding: 15px;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.billing-bg{
+    background-color:rgba(0,0,0,.8);
+    padding: 15px;
+    height: 550px;
+}
+.billing-bg-img{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+}
+.embed-top{
+  margin-top: 100px;
+}
+.mega-dropdown {
+    position: static !important;
+    padding-top:5px;
+}
+.height{
+  height:205px;
+}
+}
+
+/* Desktops */
+@media only screen and (min-width : 1200px) {
+.section-padding{
+    padding: 50px 100px;
+}
+.basic-title{
+  color: #fff;
+  font-size: 4.6em;
+  margin: 0 0 .2em;
+  line-height: 1em;
+  font-weight: 700;
+}
+.basic-para{
+  letter-spacing: .2px;
+  padding: 0 10px;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  line-height: 23px;
+  margin-bottom: 20px;
+}
+.join-free{
+  display: block;
+  padding: 10px;
+  text-transform: uppercase;
+  background-color: #E50914;
+  color: #fff;
+  padding: 1.3em 1.6em;
+  width: 270px;
+  min-height: 44px;
+  font-weight: 400;
+  letter-spacing: 1.9px;
+  font-size: 14px;
+  margin: .5em .5em .5em 0;
+  border-radius: 4px;
+  line-height: 1em;
+}
+.basic-tabs .nav-tabs li{
+  width: 33%;
+}
+.basic-row{
+  margin: 0 auto;
+  padding: 40px 0;
+  width: 70%;
+  max-width: 1400px;
+}
+.basic-section{
+  margin-top: 70px;
+}
+.form-signup-google .btn {
+    background-color: #dc4e41;
+    float: left;
+    font-size: 12px;
+    text-transform: inherit;
+    width: auto;
+    border: medium none;
+    border-radius:4px;
+    color: #fff;
+    display: inline-block;
+    font-family: "Montserrat",sans-serif;
+    font-weight: normal;
+    line-height: 40px;
+    padding: 0 20px;
+    position: relative;
+    z-index: 1;
+    margin-top: 15px;
+}
+.form-signup-facebook .btn {
+    background-color: #3b5998;
+    float: right;
+    font-size: 12px;
+    text-transform: inherit;
+    width: auto;
+    border: medium none;
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block;
+    font-family: "Montserrat",sans-serif;
+    font-weight: normal;
+    line-height: 40px;
+    padding: 0 20px;
+    position: relative;
+    z-index: 1;
+    margin-top: 15px;
+}
+.pull-left1{
+  float: left;
+}
+.pull-right1{
+  float: right;
+} 
+.list-profiles .profile-gate-label , .profile-actions-container h1{
+    width: 100%;
+    color: #fff;
+    font-size: 3.5em;
+}
+.highlight-img{
+    height: 500px;
+    background-position: center 10%;
+    width: 100%;
+}
+.highlight{
+  position: relative;
+  min-height: 500px;
+}
+.header_section {
+    padding: 0 45px;
+    width: 100%;
+}
+.navbar-default{
+  border-radius: 0;
+  background: transparent;
+  border: none;
+  margin-bottom: 0;
+}
+.tab-section{
+    height: 500px;
+    background-position: center;
+    width: 100%;
+}
+.centered-div{
+    transform: scale(1); 
+    opacity: 1; transition-duration: 450ms; 
+    transition-delay: 200ms; 
+    width: 40%;
+    margin:auto;
+}
+.pay-details-bg{
+    background-color:  rgba(0,0,0,.8);
+    padding: 15px;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.billing-bg{
+    background-color:rgba(0,0,0,.8);
+    padding: 15px;
+    height: 550px;
+}
+.billing-bg-img{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+}
+.embed-top{
+  margin-top: 100px;
+}
+.mega-dropdown {
+    position: static !important;
+    padding-top:5px;
+}
+.height{
+  height: 185px;
+}
+}
+
+@media screen and (max-width:360px) {
+.hidden-xxs{
+    display: none !important;
+}
+.visible-xxs{
+    display: block;
+}
+.height{
+  height: 375px;
+}
+}
+
+@media screen and (min-width:361px) {
+.hidden-xxs{
+    display: block;
+}
+.visible-xxs{
+    display: none !important;
+}
+}
+

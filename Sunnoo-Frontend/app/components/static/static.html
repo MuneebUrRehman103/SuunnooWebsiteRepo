@@ -1,0 +1,37 @@
+<div class="main-content form-content bg-img" style="background-image:url({{login_bg}})">
+	<nav class="navbar navbar-default form-navbar" role="navigation">
+		<div class="container">
+			<div class="navbar-header form-header">
+		
+		
+				<a class="navbar-brand" ui-sref="static.index">
+					<img ng-src="{{site_logo}}" class="hidden-xs">
+					<img src="{{site_icon}}" class="visible-xs">
+				</a>
+
+			</div>
+		</div>
+	</nav>
+
+	<div class="content-panel">
+
+		<!-- LOGIN FORM 
+		===================================================-->
+		<div class="login-form">
+			<div class="container">
+				<h3 class="login-tit">{{page.heading}}</h3>		
+
+				<p style="text-align:justify;" ng-bind-html="page.description"></p>			
+			</div>
+		</div>
+		<!-- LOGIN FORM -->
+
+	</div>
+</div>
+<style type="text/css">
+.login-tit {
+	color: #fff;
+	font-family: verdana;
+	/*text-decoration: underline;*/
+}
+</style>

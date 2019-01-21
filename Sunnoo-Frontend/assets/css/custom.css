@@ -1,0 +1,596 @@
+.page_loading {
+	overflow:hidden!important
+}
+#preloader {
+	overflow:hidden
+}
+#page_preloader {
+	background:#000000;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	position:fixed;
+	z-index:2000;
+	opacity:1;
+	-webkit-transition:all 280ms cubic-bezier(.4,0,.2,1);
+	transition:all 280ms cubic-bezier(.4,0,.2,1)
+}
+#page_preloader>img {
+	display:block;
+	position:absolute;
+	left:48%;
+	top:50%;
+	margin:-24px 0 0 -24px;
+	width:5%;
+	height:auto
+}
+.page_loading #page_preloader { 
+	opacity:1
+}
+.page_loaded #page_preloader { 
+	display:none
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+
+#before_loader {
+	background:#000000;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	position:fixed;
+	z-index:2000;
+	opacity:1;
+	-webkit-transition:all 280ms cubic-bezier(.4,0,.2,1);
+	transition:all 280ms cubic-bezier(.4,0,.2,1)
+}
+#before_loader>img {
+	display:block;
+	position:absolute;
+	left:48%;
+	top:50%;
+	margin:-24px 0 0 -24px;
+	width:5%;
+	height:auto
+}
+
+
+
+ .profiles-gate-container .addProfileIcon {
+    font-size: 5vw;
+    color: grey;
+    text-align: center;
+    text-decoration: none;
+    height: 10vw;
+    width: 10vw;
+    max-height: 200px;
+    max-width: 200px;
+    min-height: 84px;
+    min-width: 84px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.profiles-gate-container .profile-name {
+    line-height: 1.2em;
+    min-height: 2.4em;
+    color: grey;
+    display: block;
+    text-align: center;
+    font-size: 1.3em;
+    margin: .8em 0;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.profiles-gate-container .addProfileIcon {
+    font-size: 5vw;
+    color: grey;
+    text-align: center;
+}
+
+.profile-button {
+    display: block;
+    margin: 2em 0 1em 0;
+    font-size: 1.3em;
+}
+
+.profile-button a, .profile-button span {
+    border: 1px solid grey;
+    color: grey;
+    text-transform: uppercase;
+    padding: .5em 1.5em;
+    letter-spacing: 2px;
+    cursor: pointer;
+    font-size: .9em;
+}
+
+
+.profiles-gate-container {
+    text-align: center;
+    width: 100%
+}
+
+.list-profiles {
+    max-width: 100%;
+}
+.list-profiles .choose-profile, .list-profiles .profile-gate-label {
+    opacity: 1;
+    -webkit-transition: opacity .4s ease-out;
+    -o-transition: opacity .4s ease-out;
+    -moz-transition: opacity .4s ease-out;
+    transition: opacity .4s ease-out;
+}
+.list-profiles .choose-profile {
+    margin: 2em 0;
+}
+.list-profiles .choose-profile, .list-profiles .profile-gate-label {
+    opacity: 1;
+    -webkit-transition: opacity .4s ease-out;
+    -o-transition: opacity .4s ease-out;
+    -moz-transition: opacity .4s ease-out;
+    transition: opacity .4s ease-out;
+}
+.profiles-gate-container ul {
+    padding: 0;
+}
+.profiles-gate-container li.profile:not(:last-child) {
+    margin: 0 2vw 0 0;
+}
+.profiles-gate-container li.profile {
+    width: 10vw;
+    max-width: 200px;
+    min-width: 84px;
+}
+.profiles-gate-container li {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+.profiles-gate-container li a {
+    text-decoration: none;
+}
+.list-profiles .avatar-wrapper {
+    position: relative;
+}
+.profiles-gate-container .profile-icon {
+    background-color: #333;
+    background-position: center center;
+    background-size: cover;
+    border: 0.3em solid rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    height: 10vw;
+    max-height: 200px;
+    max-width: 200px;
+    min-height: 84px;
+    min-width: 84px;
+    position: relative;
+    text-decoration: none;
+    width: 10vw;
+    transition: .3s all linear;
+    /*background-position: center center;
+    height: 10vw;
+    width: 10vw;
+    max-height: 200px;
+    max-width: 200px;
+    min-height: 84px;
+    min-width: 84px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    text-decoration: none;
+    border: .3em solid rgba(0,0,0,.4);
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #333;*/
+}
+.profile-link{
+    transition: .3s all linear;
+}
+.profiles-gate-container .profile-name {
+    line-height: 1.2em;
+    min-height: 2.4em;
+    color: grey;
+    display: block;
+    text-align: center;
+    font-size: 1.3em;
+    margin: .8em 0;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    transition: .3s all linear;
+}
+.profile-link:hover .profile-name{
+    color:white;
+}
+.profile-link:hover .profile-icon{
+ border:.3em solid #e5e5e5;
+ cursor:pointer;
+}
+.profiles-gate-container .addProfileIcon :hover{
+    background: #fff;
+    -moz-box-align: center;
+    -moz-box-pack: center;
+    align-items: center;
+    color: grey;
+    display: flex;
+    font-size: 5vw;
+    height: 10vw;
+    justify-content: center;
+    max-height: 200px;
+    max-width: 200px;
+    min-height: 84px;
+    min-width: 84px;
+    text-align: center;
+    text-decoration: none;
+    width: 10vw;
+}
+
+.profile-actions-container {
+    position: relative;
+    text-align: left;
+}
+.profile-actions-container h1 {
+    /*font-size: 4vw;*/
+    margin: 0;
+}
+.profile-actions-container h1, .profile-actions-container h2 {
+    font-weight: 400;
+}
+
+.profile-actions-container h2 {
+    color: #666;
+    font-size:16px;
+}
+
+
+.profile-metadata {
+    display: flex;
+    padding: 2em 0;
+}
+.profile-entry {
+    border-bottom: 1px solid #333;
+    border-top: 1px solid #333;
+}
+
+.profile-metadata .main-profile-avatar {
+   /* margin-right: 1.5vw;*/
+    max-width: 180px;
+    min-width: 80px;
+    white-space: nowrap;
+    width: 8vw;
+}
+.profile-metadata img {
+    transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.profile-metadata .pulsate, .profile-metadata img {
+    height: 8vw;
+    max-height: 180px;
+    max-width: 180px;
+    min-height: 80px;
+    min-width: 80px;
+    width: 8vw;
+}
+.profile-add-parent {
+    -moz-box-direction: normal;
+    -moz-box-orient: vertical;
+    -moz-box-pack: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1.5vw;
+}
+.profile-actions-container {
+    text-align: left;
+}
+
+.profile-metadata .profile-entry-inputs {
+    -moz-box-align: center;
+    -moz-box-direction: normal;
+    -moz-box-orient: horizontal;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    vertical-align: middle;
+}
+@media screen and (max-width: 360px) {
+.profile-entry input[type="text"] {
+    background: #666 none repeat scroll 0 0;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    color: #fff;
+    /*font-size: 1.3vw;*/
+    height: 2em;
+    margin: 0 0.8em 0 0;
+    padding: 0.2em 0.6em;
+    width: 12em;
+}
+}
+
+@media screen and (max-width: 360px) {
+    .profile-entry input[type="text"] {
+        background: #666 none repeat scroll 0 0;
+        border: 1px solid transparent;
+        box-sizing: border-box;
+        color: #fff;
+        /*font-size: 1.3vw;*/
+        height: 2em;
+        margin: 0 0.8em 0 0;
+        padding: 0.2em 0.6em;
+        width:12em;
+    }
+}
+
+@media screen and (min-width:361px) {
+    .profile-entry input[type="text"] {
+        background: #666 none repeat scroll 0 0;
+        border: 1px solid transparent;
+        box-sizing: border-box;
+        color: #fff;
+        /*font-size: 1.3vw;*/
+        height: 2em;
+        margin: 0 0.8em 0 0;
+        padding: 0.2em 0.6em;
+        width: 18em;
+    }
+
+
+}
+.profile-entry input[type="text"]::-moz-placeholder {
+    color: #ccc;
+}
+.profile-entry label {
+    display: inline;
+}
+
+
+.profile-button.preferred-action a, .profile-button.preferred-action span {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #fff;
+    color: #000;
+    font-weight: 700;
+}
+.profile-button.preferred-action a:hover, .profile-button.preferred-action a:active, .profile-button.preferred-action a:focus,
+.profile-button.preferred-action span:hover, .profile-button.preferred-action span:active, .profile-button.preferred-action span:focus{
+    background:#e50914;
+    border: 1px solid #e50914;
+    color: #fff;
+}
+.profile-button a, .profile-button span {
+    border: 1px solid grey;
+    color: grey;
+    cursor: pointer;
+    font-size: 0.9em;
+    letter-spacing: 2px;
+    padding: 0.5em 1.5em;
+    text-transform: uppercase;
+    transition: .3s all linear; 
+}
+.profile-button a:hover, .profile-button a:active, .profile-button a:focus,
+.profile-button span:hover, .profile-button span:active, .profile-button span:focus{
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+/*.profile-actions-container .profile-button {
+    display: inline-block;
+    margin-right: 20px;
+}
+.profile-button {
+    display: block;
+    font-size: 1.3vw;
+    margin: 2em 0 1em;
+}*/
+
+
+.image_sub_profile {
+    position: absolute;
+    bottom:0;
+    right:0;
+    background: #000;
+    opacity: 0.7;
+    padding: 5px 10px;
+}
+
+.edit_sub_profile {
+
+    position: absolute;
+    bottom:0;
+    right:0;
+    left: 0;
+    top:0;
+    background: #000;
+    opacity: 0.7;
+     display: flex;
+    justify-content: center;
+    -moz-box-align: center;
+    -moz-box-pack: center;
+    align-items: center;
+    color: #fff;
+    font-size: 22px;
+
+}
+
+.ui-menu-item-wrapper {
+    color: #fff;
+    line-height: 2;
+    padding: 0 10px;
+    width: 100%;
+    height: 30px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front {
+    background: #000 none repeat scroll 0 0;
+    /*border-radius: 10px;*/
+    border-right: 20px none;
+    color: #fff;
+    padding: 10px 5px;
+    width: 300px !important;
+    z-index: 2147483647;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+
+.ui-menu-item:hover, .ui-menu-item:active, .ui-menu-item:focus {
+    background-color: #cf000f ;
+    color: #fff;
+}
+/* Overlays */
+.ui-widget-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.ui-autocomplete {
+/*    position: absolute;*/
+    top: 0;
+    left: 0;
+    cursor: default;
+}
+
+.ui-menu {
+    list-style: none;
+    padding: 2px;
+    margin: 0;
+    display: block;
+    outline: none;
+}
+.ui-menu .ui-menu {
+    margin-top: -3px;
+    position: absolute;
+}
+
+.ui-widget {
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 1.1em;
+    top: 55px;
+    left: 65%;
+
+}
+.ui-widget .ui-widget {
+    font-size: 1em;
+}
+.ui-helper-hidden-accessible {
+    display: none;
+}
+
+.new-epi {
+    font-weight: bold;
+    padding: 5px;
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.footer_ul li{
+
+    display: inline-block;
+    margin-right: 3px;
+
+}
+
+.back_button {
+
+    position: absolute;
+
+    top :6%;
+
+    left: 2%;
+
+    color: #fff;
+
+    font-size:36px;
+
+}
+
+.back_button a {
+
+    color: #fff;
+}
+
+.embed-link {
+
+
+    position: absolute;
+
+    right: 1%;
+
+    bottom: 0;
+
+    color: #fff;
+
+    font-size:30px;
+
+}
+
+.embed-link a {
+
+    color: #fff;
+    cursor: pointer;
+}
+
+.new_way {
+  position: relative;
+  background: #fff;
+  /*width: 300px;*/
+  /*padding: 20px;*/
+  color: #000;
+  text-align: center;
+  font-size: 12px;
+}
+
+.new_way::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: calc(92% - 10px);
+  background: #fff;
+  width: 20px;
+  height: 20px;
+  
+  /* The points are: left top, right top, center bottom */
+    clip-path: polygon(0 0, 100% 0, 50% 100%);
+}
+
+.embed_icon{
+
+    position: relative;
+
+}
+
+.embed_popup {
+
+    position: absolute;
+
+    right: 0;
+
+    bottom: 60px;
+}

@@ -1,0 +1,81 @@
+<div class="main-content form-content bg-img" style="background-image:url({{login_bg}})">
+    
+    <div class="login-form" style="padding-top: 100px;padding-bottom: 40px;">
+
+        <div class="container">
+        	<div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 billing-white-bg" ng-if="subscribed_plans.plans.length > 0">
+	        	<div class="row">
+	        		<div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 zero-padding billing-bg-img" style="background-image: url(img/billing-back.jpg);">
+	        			<div class="billing-bg">
+		        			<h3 class="billing-head"><i class="fa fa-calendar"></i> &nbsp;Billing Details</h3>
+		        			<p class="bill-line"></p>
+
+		        			<h4 class="billing-sub-head"><i class="fa fa-hand-o-right"></i> &nbsp;Next Billing Date</h4>
+		        			<p class="billing-para">{{active_plan.data.expiry_date}}</p>
+		        			<p class="bill-line"></p>
+
+		        			<h4 class="billing-sub-head"><i class="fa fa-tags  fa-rotate-90"></i> &nbsp;{{active_plan.subscription.title}}</h4>
+		        			<p class="billing-para">${{active_plan.data.amount}} / {{active_plan.subscription.plan}} Months</p>
+
+		        			<p class="bill-line"></p>
+
+		        			<a ui-sref="profile.subscriptions({sub_profile_id : sub_profile_id})" class="text-right white-clr"><h4><i class="fa fa-angle-double-right"></i>&nbsp; View Plan Details</h4></a>
+	        			</div>
+	        		</div>
+
+	        		<div class="col-xs-12 col-sm-7 col-md-7 col-lg-7 billing-history">
+	        			<h3 class="billing-head1"><i class="fa fa-clock-o"></i> &nbsp;Billing History</h3>
+	        			<p class="bill-line"></p>
+
+	        			<div class="billing-card" ng-repeat="plan in subscribed_plans.plans">
+	        				<div class="card-head">
+	        					<h3>{{plan.plan_name}}</h3>
+	        				</div>
+	        				<div class="card-white-bg">
+	        					<div class="table-responsive">
+  									<table class="table table-bordered">
+  										<tbody>
+											<tr>
+												<td>Subscribed Date</td>
+												<td>{{plan.date}}</td>
+											</tr>
+											<tr>
+												<td>Expiry Date</td>
+												<td>{{plan.expiry_date}}</td>
+											</tr>
+											<tr>
+												<td>No Of Account</td>
+												<td>{{plan.no_of_account}}</td>
+											</tr>
+											<tr>
+												<td>No Of Month</td>
+												<td>{{plan.no_of_month}}</td>
+											</tr>
+											<tr>
+												<td>Amount</td>
+												<td>${{plan.amount}}</td>
+											</tr>
+											<tr>
+												<td>Payment Mode</td>
+												<td>{{plan.payment_mode}}</td>
+											</tr>
+										</tbody>
+  									</table>
+  								</div>
+	        				</div>
+	        			</div>
+	        			
+	        			<div class="billing-total text-right">
+	        				<h3>Total - ${{subscribed_plans.amount}}</h3>
+	        			</div>
+	        		</div>
+        		</div>
+        	</div>
+        	<div class="text-center"  style="margin-top:40px !important"  ng-if="subscribed_plans.plans.length <= 0"> 
+				<img src="img/no-results.png" class="img-responsive auto-margin">
+			</div>
+        </div>
+
+    </div>
+
+</div>
